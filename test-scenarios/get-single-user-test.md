@@ -8,33 +8,83 @@
 
 
 ## 🎯 Objective
-Vérifier que l’API retourne correctement les informations d’un utilisateur spécifique.
+Verify that the API correctly returns the details of a specific user when a valid user ID is provided.
 
 
 ## 🔗 Endpoint
-GET https://api.example.com/users/2  
+GET https://api.example.com/users/{id}
+
+Example:
+GET https://api.example.com/users/2
 
 
 ## 🔧 Pre-conditions
-- API disponible  
-- User ID existe  
-- Postman configuré  
+- API is available and running  
+- User with the specified ID exists in the system  
+- Postman or any API testing tool is configured  
+- Valid API key if required  
 
 
-## 🚀 Steps
-1. Ouvrir Postman  
-2. Envoyer requête GET  
-3. Vérifier response status  
-4. Vérifier response body  
+## 📥 Test Data
+
+| Field  | Value |
+|--------|------|
+| userId | 2     |
+
+
+## 🚀 Test Steps
+
+1. Open Postman  
+2. Select **GET** method  
+3. Enter the request URL:
+   https://api.example.com/users/2  
+4. Click **Send**  
+5. Check the response status code  
+6. Validate the response body  
 
 
 ## ✅ Expected Result
-- Status = 200  
-- Données utilisateur correctes  
+
+- Status code: **200 OK**
+- Response contains the user details
+- The following fields are present:
+  - id
+  - name
+  - email
+- Data corresponds to the requested user ID
+
+
+## 📤 Actual Result
+
+- Status code: 200  
+- User information is returned correctly  
+
+
+## 📊 Status
+✔ Passed 
+
 
 
 ## 📸 Evidence
-![Get Single User](images/get-single-user.png)
+
+![Get Single User API Screenshot](images/get-single-user.png)
+
+
+## ⚠️ Notes
+
+- Response time is acceptable  
+- No error messages observed  
+- Data is consistent with expected output  
+
+
+## ❌ Negative Test Cases (Optional)
+
+- Invalid user ID → Expected: 404 Not Found  
+- Non-numeric ID (e.g., "abc") → Expected: 400 Bad Request  
+
+
+
+
 
 
 
