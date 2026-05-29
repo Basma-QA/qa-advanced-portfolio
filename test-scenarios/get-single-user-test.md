@@ -66,8 +66,7 @@ GET https://api.example.com/users/2
 
 
 ## 📸 Evidence
-
-images/Get-single-user-api-test.jpg
+![Get Single User API Screenshot] (images/Get-single-user-api-test.jpg)
 
 
 ## ⚠️ Notes
