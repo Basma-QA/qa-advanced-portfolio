@@ -21,7 +21,7 @@ GET https://api.example.com/users/2
 ## 🔧 Pre-conditions
 - API is available and running  
 - User with the specified ID exists in the system  
-- Postman or any API testing tool is configured  
+- Postman is configured  
 - Valid API key if required  
 
 
@@ -75,12 +75,6 @@ GET https://api.example.com/users/2
 - Response time is acceptable  
 - No error messages observed  
 - Data is consistent with expected output  
-
-
-## ❌ Negative Test Cases (Optional)
-
-- Invalid user ID → Expected: 404 Not Found  
-- Non-numeric ID (e.g., "abc") → Expected: 400 Bad Request  
 
 
 
