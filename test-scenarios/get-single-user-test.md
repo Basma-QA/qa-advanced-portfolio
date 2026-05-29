@@ -66,6 +66,7 @@ GET https://api.example.com/users/2
 
 
 ## 📸 Evidence
+</> Markdown
 [![Evidence](images/Get-single-user-api-test.jpg)](images/Get-single-user-api-test.jpg)
 
 
