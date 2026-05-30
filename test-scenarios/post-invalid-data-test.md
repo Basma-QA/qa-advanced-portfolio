@@ -106,20 +106,9 @@ This behavior is due to the fact that ReqRes is a mock API:
 👉 Therefore, this is NOT a bug, but an API limitation.
 
 
-## 🧠 QA Insight
 
-In a real production API:
-- Invalid data should be rejected
-- Proper validation errors (400/422) should be returned
-- No resource should be created with invalid input
 
-In this API:
-- All requests are accepted regardless of validity
-- Validation is not enforced
 
-👉 As a QA, always distinguish between:
-- ❌ Real bug
-- ⚠️ API limitation / mock behavior
 
 
 
