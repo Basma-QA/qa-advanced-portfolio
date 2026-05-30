@@ -8,16 +8,19 @@ POST https://reqres.in/api/users
 
 ## 🧪 Test Cases
 3 TEST Cases
-</> Markdown
+
 ### ❌ Test 1: Invalid Email Format
 
 Request:
+
 </>JSON
+
 {
   "name": "John",
   "email": "invalid-email",
   "password": "123456"
 }
+
 Expected:
 
 400 or 422 status code
@@ -34,13 +37,17 @@ Screenshot:
 [View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/post-invalid-data-invalid-email.jpg)
 
 ❌ Test 2: Empty Fields
+
 Request:
+
 </>JSON
+
 {
   "name": "",
   "email": "",
   "password": ""
 }
+
 Expected:
 
 400 or 422 status code
@@ -56,11 +63,15 @@ Screenshot:
 [View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/post-invalid-data-empty-fields.jpg)
 
 ❌ Test 3: Missing Required Fields
+
 Request:
+
 </>JSON
+
 {
   "email": "test@test.com"
 }
+
 Expected:
 
 400 or 422 status code
@@ -84,7 +95,6 @@ Even with invalid, empty, or incomplete data:
 - A user is created
 - Response returns 201 Created
 
----
 
 ## ⚠️ API Limitation
 
@@ -95,7 +105,6 @@ This behavior is due to the fact that ReqRes is a mock API:
 
 👉 Therefore, this is NOT a bug, but an API limitation.
 
----
 
 ## 🧠 QA Insight
 
