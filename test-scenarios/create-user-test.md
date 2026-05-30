@@ -79,7 +79,7 @@ json
 
 ## 📸 Evidence
 
-[![Create User API Test](images/create-user-api-test.jpg)](images/create-user-api-test.jpg)
+[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/create-user-api-test.jpg)
 
 
 ## ⚠️ Notes
