@@ -1,0 +1,126 @@
+# 🧪 POST Invalid Data Test
+
+## 📌 Objective
+Test how the API handles invalid input data when creating a user using POST request.
+
+## 📍 Endpoint
+POST https://reqres.in/api/users
+
+## 🧪 Test Cases
+3 TEST Cases
+
+### ❌ Test 1: Invalid Email Format
+
+Request:
+</>JSON
+{
+  "name": "John",
+  "email": "invalid-email",
+  "password": "123456"
+}
+Expected:
+
+400 or 422 status code
+Error message "Invalid email format"
+User should NOT be created
+
+Actual:
+
+201 Created
+User created successfully
+API accepts invalid email format
+
+Screenshot:
+[View Screenshot]()
+
+❌ Test 2: Empty Fields
+Request:
+</>JSON
+{
+  "name": "",
+  "email": "",
+  "password": ""
+}
+Expected:
+
+400 or 422 status code
+Error message "Fields cannot be empty"
+User should NOT be created
+
+Actual:
+
+201 Created
+User created successfully
+
+Screenshot:
+[View Screenshot]()
+
+❌ Test 3: Missing Required Fields
+Request:
+</>JSON
+{
+  "email": "test@test.com"
+}
+Expected:
+
+400 or 422 status code
+Error message "Missing required fields"
+User should NOT be created
+
+Actual:
+
+201 Created
+User created successfully
+
+Screenshot:
+[View Screenshot]()
+
+## 📊 Conclusion
+
+The API does not strictly validate POST input data.
+
+Even with invalid, empty, or incomplete data:
+- Requests are accepted
+- A user is created
+- Response returns 201 Created
+
+---
+
+## ⚠️ API Limitation
+
+This behavior is due to the fact that ReqRes is a mock API:
+- It does not implement real backend validation rules
+- It simulates successful responses even with invalid input
+- It is designed for learning and testing purposes
+
+👉 Therefore, this is NOT a bug, but an API limitation.
+
+---
+
+## 🧠 QA Insight
+
+In a real production API:
+- Invalid data should be rejected
+- Proper validation errors (400/422) should be returned
+- No resource should be created with invalid input
+
+In this API:
+- All requests are accepted regardless of validity
+- Validation is not enforced
+
+👉 As a QA, always distinguish between:
+- ❌ Real bug
+- ⚠️ API limitation / mock behavior
+
+
+
+
+
+
+
+
+
+
+
+
+
