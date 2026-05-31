@@ -16,6 +16,7 @@ Request:
 
 ```http
 DELETE https://reqres.in/api/users/2
+```
 
 Expected:
 
@@ -30,7 +31,7 @@ Actual:
 
 Screenshot:
 
-[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/Delete-user.jpg)
+[View Screenshot]()
 
 
 ## 📊 Conclusion
@@ -51,3 +52,6 @@ ReqRes is a mock API designed for testing and learning purposes.
 Although the API returns a successful deletion response, it does not perform a real deletion operation in a persistent database.
 
 Therefore, the response simulates successful behavior rather than actually removing user data.
+
+
+
