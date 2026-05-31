@@ -14,9 +14,7 @@ DELETE https://reqres.in/api/users/2
 
 Request:
 
-```http
 DELETE https://reqres.in/api/users/2
-```
 
 Expected:
 
@@ -31,7 +29,7 @@ Actual:
 
 Screenshot:
 
-[View Screenshot]()
+[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/Delete-user.jpg)
 
 
 ## 📊 Conclusion
