@@ -67,7 +67,7 @@ GET https://api.example.com/users/2
 
 ## 📸 Evidence
 </> Markdown
-[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/Get-single-user-api-test.jpg)
+[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/get-single-user.jpg)
 
 
 ## ⚠️ Notes
