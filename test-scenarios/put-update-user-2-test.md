@@ -29,14 +29,22 @@ Metadata is included in response
 
 📸 Evidence
 
-[View Screenshot] ()
+[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/put-update-user-2.jpg)
 
 ✅ Expected Result vs Actual Result
 
-Expected Result	                        Actual Result
-User data updated	                     ✔️ Data returned as updated
-Status code 200	                       ✔️ 200 OK received
-No validation errors	                 ✔️ No errors
+Expected Result	                      
+
+User data updated	                     
+Status code 200	                       
+No validation errors	
+
+
+Actual Result
+
+✔️ Data returned as updated
+✔️ 200 OK received
+✔️ No errors
 
 
 ⚠️ Notes
