@@ -14,8 +14,8 @@ GET https://reqres.in/api/users/999
 
 Request:
 
-```http
 GET https://reqres.in/api/users/999
+
 
 Expected:
 
