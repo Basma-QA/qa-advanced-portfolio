@@ -23,7 +23,8 @@ API is available
 ### Status
 Passed
 
-
+### Screenshot
+[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/get-users.jpg)
 
 
 
