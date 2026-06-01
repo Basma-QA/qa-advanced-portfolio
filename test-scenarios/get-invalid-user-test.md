@@ -31,7 +31,7 @@ Actual:
 
 Screenshot:
 
-[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/get-invalid-user-test.jpg)
+[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/get-invalid-user.jpg)
 
 
 ## 📊 Conclusion
