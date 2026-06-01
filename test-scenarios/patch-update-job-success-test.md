@@ -8,19 +8,19 @@ Verify that the API allows a partial update of an existing user's job using a PA
 
 ## Endpoint
 
-```http
+
 PATCH https://reqres.in/api/users/2
-```
+
 
 
 
 ## Request Body
 
-```json
+</>JSON
 {
   "job": "QA Engineer"
 }
-```
+
 
 
 
@@ -49,14 +49,14 @@ PATCH https://reqres.in/api/users/2
 
 * Status code returned: **200 OK**.
 * The `job` field was successfully updated to **"QA Engineer"**.
-* The response included an `updatedAt` timestamp.
+* The response included an `updatedAT` timestamp.
 * No errors were returned.
 
 
 
 ## Test Evidence
 
-Screenshot: [View Screenshot] ()
+Screenshot: [View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/patch-update-job-success.jpg)
 
 
 ## Conclusion
