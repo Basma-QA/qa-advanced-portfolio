@@ -56,7 +56,7 @@ PATCH https://reqres.in/api/users/2
 
 ## Test Evidence
 
-Screenshot: [View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/patch-update-job-success.jpg)
+Screenshot: [View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/patch-update-job-success.jpg)
 
 
 ## Conclusion
