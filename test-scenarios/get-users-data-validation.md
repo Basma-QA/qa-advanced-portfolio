@@ -56,7 +56,7 @@ We ensure that:
 
 
 ## 📸 Evidence
-[View Screenshot] ()
+[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/get-users-data-validation-page2.jpg)
 
 
 
