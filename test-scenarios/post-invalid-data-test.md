@@ -34,7 +34,7 @@ User created successfully
 API accepts invalid email format
 
 Screenshot:
-[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/post-invalid-data-invalid-email.jpg)
+[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/post-invalid-data-invalid-email.jpg)
 
 ❌ Test 2: Empty Fields
 
@@ -60,7 +60,7 @@ Actual:
 User created successfully
 
 Screenshot:
-[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/post-invalid-data-empty-fields.jpg)
+[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/post-invalid-data-empty-fields.jpg)
 
 ❌ Test 3: Missing Required Fields
 
@@ -84,7 +84,7 @@ Actual:
 User created successfully
 
 Screenshot:
-[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/post-invalid-data-missing-required-fields.jpg)
+[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/post-invalid-data-missing-required-fields.jpg)
 
 ## 📊 Conclusion
 
