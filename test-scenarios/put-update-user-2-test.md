@@ -29,7 +29,7 @@ Metadata is included in response
 
 📸 Evidence
 
-[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/put-update-user-2.jpg)
+[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/put-update-user-2.jpg)
 
 ✅ Expected Result vs Actual Result
 
