@@ -79,7 +79,7 @@ json
 
 ## 📸 Evidence
 
-[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/create-user.jpg)
+[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/create-user.jpg)
 
 
 ## ⚠️ Notes
