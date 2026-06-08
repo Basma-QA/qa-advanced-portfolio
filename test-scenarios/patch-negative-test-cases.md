@@ -58,7 +58,7 @@ The API accepts an empty PATCH request and updates the resource timestamp instea
 
 📸 Evidence:
 
-[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/patch-negative-empty-body.jpg)
+[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/patch-negative-empty-body.jpg)
 
 
 ---
@@ -165,7 +165,7 @@ The API updates a non-existing resource instead of returning a Not Found error.
 
 📸 Evidence:
 
-[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/patch-negative-non-existing-user-id.jpg)
+[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/patch-negative-non-existing-user-id.jpg)
 
 ---
 
