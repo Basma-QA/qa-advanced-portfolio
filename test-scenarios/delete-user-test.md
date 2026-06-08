@@ -29,7 +29,7 @@ Actual:
 
 Screenshot:
 
-[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/Delete-user.jpg)
+[View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/Delete-user.jpg)
 
 
 ## 📊 Conclusion
