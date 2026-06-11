@@ -20,30 +20,30 @@ API is available and accessible.
 
 {}         
 
-Expected Result
+##Expected Result
 
 The API should reject the request with a validation error (e.g., 400 Bad Request) because required fields are missing.
 
 
-Actual Result
+##Actual Result
 
 The API returns 201 Created and creates a user even with an empty request body.
 
 
-Severity
+##Severity
 
 Low
 
-Priority
+##Priority
 
 Low
 
-Notes
+##Notes
 
 ReqRes is a mock API and does not enforce required field validation. This behavior is considered a system limitation rather than a functional defect.
 
 
-Evidence
+##Evidence
 
 [View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-bugs/bug-2-api-accepts-empty-request-body-during-user-creation.jpg)
 
