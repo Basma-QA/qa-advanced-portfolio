@@ -10,7 +10,7 @@ The objective is to ensure that users can authenticate successfully with valid c
 
 ## Positive Test Scenarios
 
-### LS-001 - Login with Valid Credentials
+### LS-1 - Login with Valid Credentials
 
 **Objective:** Verify that a registered user can successfully log in using valid credentials.
 
