@@ -112,7 +112,7 @@ The API does not validate data types and accepts a boolean value for the name fi
 
 📸 Evidence:
 
-[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/patch-negative-invalid-data-type.jpg)
+[View Screenshot] (https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/patch-negative-invalid-data-type.jpg)
 
 ---
 
