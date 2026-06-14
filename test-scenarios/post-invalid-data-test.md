@@ -11,7 +11,7 @@ POST https://reqres.in/api/users
 
 ### ❌ Test 1: Invalid Email Format
 
-Request:
+## Request:
 
 </>JSON
 
@@ -21,24 +21,24 @@ Request:
   "password": "123456"
 }
 
-Expected:
+## Expected:
 
 400 or 422 status code
 Error message "Invalid email format"
 User should NOT be created
 
-Actual:
+## Actual:
 
 201 Created
 User created successfully
 API accepts invalid email format
 
-Screenshot:
+## Evidence:
 [View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/post-invalid-data-invalid-email.jpg)
 
-❌ Test 2: Empty Fields
+###  ❌ Test 2: Empty Fields
 
-Request:
+## Request:
 
 </>JSON
 
@@ -48,23 +48,23 @@ Request:
   "password": ""
 }
 
-Expected:
+## Expected:
 
 400 or 422 status code
 Error message "Fields cannot be empty"
 User should NOT be created
 
-Actual:
+## Actual:
 
 201 Created
 User created successfully
 
-Screenshot:
+## Evidence:
 [View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/post-invalid-data-empty-fields.jpg)
 
-❌ Test 3: Missing Required Fields
+###  ❌ Test 3: Missing Required Fields
 
-Request:
+## Request:
 
 </>JSON
 
@@ -72,18 +72,18 @@ Request:
   "email": "test@test.com"
 }
 
-Expected:
+## Expected:
 
 400 or 422 status code
 Error message "Missing required fields"
 User should NOT be created
 
-Actual:
+## Actual:
 
 201 Created
 User created successfully
 
-Screenshot:
+## Evidence:
 [View Screenshot](https://github.com/Basma-QA/qa-advanced-portfolio/blob/main/images/screenshots-test-api/post-invalid-data-missing-required-fields.jpg)
 
 ## 📊 Conclusion
